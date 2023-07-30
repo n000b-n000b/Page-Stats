@@ -141,7 +141,7 @@ def main(a000,a001,a002):
                             i.plotly_chart(fig00)
                 except:
                     pass
-            with i.container():
+            with col003:
                 i.caption("Testing layout")
     try:
         for page0 in templ:
