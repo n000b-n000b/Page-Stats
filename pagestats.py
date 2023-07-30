@@ -40,6 +40,7 @@ def main(a000,a001,a002):
             pbar.progress(percent_complete + 1, text=progress_text)
         if (len(a000)==0 or len(a001)==0 or len(a002)==0):
             i.warning("Please enter a URL for each field above.")
+            pass
         if ('https://' not in a000):
             a000='https://'+a000
         if ('https://' not in a001):
@@ -145,12 +146,15 @@ def main(a000,a001,a002):
                 i.caption("https://arlo.com")
 
     try:
-        for page0 in templ:
-            temp2.append(page0)
-            b00(page0)
-            set_max=c00()
-        #d00()
-        d01()
+        if len(templ)==3:
+            for page0 in templ:
+                temp2.append(page0)
+                b00(page0)
+                set_max=c00()
+            #d00()
+            d01()
+        else:
+            pass
     except:
         i.warning("""Apologies, but in order for Page-Stats! remain within ethical boundaries. 
                   We are unable to analyze your previous entry, all sources provided are non-compliant.
