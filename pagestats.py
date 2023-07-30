@@ -142,7 +142,7 @@ def main(a000,a001,a002):
                 except:
                     frame00.index=[templ[0][8:]]
             with col003:
-                i.markdown("<div style='border-style: dashed; text-align: center; margin-top: 50px; min-width: 100%; margin-left: 40%'><h2>Developers</h2><br><a href='https://www.linkedin.com/in/alayah-howard/'><h3>Front-End</h3><h5>Alayah H.</h5></a><br><a href='https://www.linkedin.com/in/jay-williams-c137/'><h3>Back-End &amp; Visualizations</h3><h5>Jay&#45;C137</h5></a><div>", unsafe_allow_html=True)
+                i.markdown("<div style='border-style: dashed; text-align: center; margin-top: 50px; min-width: 100%;'><h2>Developers</h2><br><a href='https://www.linkedin.com/in/alayah-howard/'><h3>Front-End</h3><h5>Alayah H.</h5></a><br><a href='https://www.linkedin.com/in/jay-williams-c137/'><h3>Back-End &amp; Visualizations</h3><h5>Jay&#45;C137</h5></a><div>", unsafe_allow_html=True)
     try:
         for page0 in templ:
             temp2.append(page0)
