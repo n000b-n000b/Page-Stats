@@ -117,7 +117,6 @@ def main(a000,a001,a002):
                 frame00.index=[templ[0][8:],templ[1][8:],templ[2][8:]]
                 with i.container():
                     i.data_editor(frame00, width=9000, height=175)
-                    col002, col003 = i.columns([7,2])
                     with i.container():
                         z=frame00
                         x,y= frame00.columns, frame00.index
@@ -131,7 +130,6 @@ def main(a000,a001,a002):
                     frame00.index=[templ[0][8:],templ[1][8:]]
                     with i.container():
                         i.data_editor(frame00, width=9000, height=175)
-                        col002, col003 = i.columns([7,2])
                         with i.container():
                             z=frame00
                             x,y= frame00.columns, frame00.index
@@ -144,9 +142,9 @@ def main(a000,a001,a002):
                     pass
             with i.container():
                 i.header("Front-End")
-                i.subheader("Alayah H.")
+                i.subheader("Alayah H.", anchor='https://www.linkedin.com/in/alayah-howard/')
                 i.header("Backend & Visuals")
-                i.subheader("Jay-C137")
+                i.subheader("Jay-C137", anchor='https://www.linkedin.com/in/jay-williams-c137/')
     try:
         if len(templ)==3:
             for page0 in templ:
