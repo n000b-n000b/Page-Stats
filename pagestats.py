@@ -118,7 +118,7 @@ def main(a000,a001,a002):
                 with i.container():
                     i.data_editor(frame00, width=9000, height=175)
                     col002, col003 = i.columns([7,2])
-                    with col002:
+                    with i.container():
                         z=frame00
                         x,y= frame00.columns, frame00.index
                         fig00=k.Figure(data=k.Surface(z=z,x=x,y=y))
@@ -132,7 +132,7 @@ def main(a000,a001,a002):
                     with i.container():
                         i.data_editor(frame00, width=9000, height=175)
                         col002, col003 = i.columns([7,2])
-                        with col002:
+                        with i.container():
                             z=frame00
                             x,y= frame00.columns, frame00.index
                             fig00=k.Figure(data=k.Surface(z=z,x=x,y=y))
