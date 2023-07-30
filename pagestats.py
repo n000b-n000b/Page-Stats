@@ -49,8 +49,6 @@ def main(a000,a001,a002):
         templ.extend((a000,a001,a002))
         if templ.count(templ[0])>1 or templ.count(templ[1])>1 or templ.count(templ[2])>1:
             i.warning("Please enter a unique URL for each field above!")
-        else:
-            pass
     a0="http://webcache.googleusercontent.com/search?q=cache:"
     def a00(page0,dat):
         a1=['a', 'abbr', 'address', 'area', 'article', 'aside', 'audio', 'b', 'bdi', 'bdo', 'blockquote', 'body', 'br', 'button', 'canvas', 'caption', 'cite', 'code', 'col', 'colgroup', 'command', 'datalist', 'dd', 'del', 'details', 'dfn', 'div', 'dl', 'dt', 'em', 'embed', 'fieldset', 'figcaption', 'figure', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'header', 'hr', 'html', 'i', 'iframe', 'img', 'input', 'ins', 'kbd', 'keygen', 'label', 'legend', 'li', 'main', 'map', 'mark', 'menu', 'meter', 'nav', 'object', 'ol', 'optgroup', 'option', 'output', 'p', 'param', 'pre', 'progress', 'q', 'rp', 'rt', 'ruby', 's', 'samp', 'section', 'select', 'small', 'source', 'span', 'strong', 'sub', 'summary', 'sup', 'table', 'tbody', 'td', 'textarea', 'tfoot', 'th', 'thead', 'time', 'tr', 'track', 'u', 'ul', 'var', 'video', 'wbr']
@@ -155,8 +153,6 @@ def main(a000,a001,a002):
                 b00(page0)
                 set_max=c00()
             d01()
-        else:
-            pass
     except:
         i.warning("""Apologies, but in order for Page-Stats! remain within ethical boundaries. 
                   We are unable to analyze your previous entry, all sources provided are non-compliant.
