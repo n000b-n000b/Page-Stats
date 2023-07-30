@@ -21,7 +21,7 @@ def main(a000,a001,a002):
     coun00=0
     blacklist=['security','access','forbidden','denied','protection','detected','unusual']
     set_max=0
-    #i.set_page_config(layout='wide')
+    i.set_page_config(layout='wide')
     i.markdown("<h1 style='text-align: center; '> Welcome to Page-Statz !</h1>", unsafe_allow_html=True)
     col00,col001=i.columns([4,5])
     with col00:
