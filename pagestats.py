@@ -147,7 +147,7 @@ def main(a000,a001,a002):
                 i.subheader("Backend & Visuals")
                 i.caption("Jay-C137",'\nhttps://www.linkedin.com/in/jay-williams-c137/')
     try:
-        if len(templ)==3:
+        if len(templ)==2 or len(templ)==3:
             for page0 in templ:
                 temp2.append(page0)
                 b00(page0)
