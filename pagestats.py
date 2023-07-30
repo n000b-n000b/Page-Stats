@@ -141,8 +141,9 @@ def main(a000,a001,a002):
                             i.plotly_chart(fig00)
                 except:
                     pass
-            with col003:
-                i.caption("Testing layout")
+            with i.container():
+                i.caption("https://arlo.com")
+
     try:
         for page0 in templ:
             temp2.append(page0)
