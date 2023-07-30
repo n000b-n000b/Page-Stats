@@ -140,13 +140,14 @@ def main(a000,a001,a002):
                             i.plotly_chart(fig00)
                 except:
                     pass
+
             with i.container():
-                i.header("Front-End")
-                i.subheader("Alayah H.", anchor='https://www.linkedin.com/in/alayah-howard/')
-                i.header("Backend & Visuals")
-                i.subheader("Jay-C137", anchor='https://www.linkedin.com/in/jay-williams-c137/')
+                i.subheader("Front-End")
+                i.caption("Alayah H.",'\nhttps://www.linkedin.com/in/alayah-howard/')
+                i.subheader("Backend & Visuals")
+                i.caption("Jay-C137",'\nhttps://www.linkedin.com/in/jay-williams-c137/')
     try:
-        if len(templ)==3:
+        if len(templ)<=2:
             for page0 in templ:
                 temp2.append(page0)
                 b00(page0)
