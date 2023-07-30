@@ -40,7 +40,7 @@ def main(a000,a001,a002):
             pbar.progress(percent_complete + 1, text=progress_text)
         if (len(a000)==0 or len(a001)==0 or len(a002)==0):
             i.warning("Please enter a unique URL for each field above!")
-            exit()
+            pass
         if ('https://' not in a000):
             a000='https://'+a000
         if ('https://' not in a001):
@@ -50,7 +50,7 @@ def main(a000,a001,a002):
         templ.extend((a000,a001,a002))
         if templ.count(templ[0])>1 or templ.count(templ[1])>1 or templ.count(templ[2])>1:
             i.warning("Please enter a unique URL for each field above!")
-            exit()
+            pass
         else:
             next
     a0="http://webcache.googleusercontent.com/search?q=cache:"
