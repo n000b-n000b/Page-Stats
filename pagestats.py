@@ -136,6 +136,7 @@ def main(a000,a001,a002):
                             fig00=k.Figure(data=k.Surface(z=z,x=x,y=y))
                             fig00.update_layout(title='Page-Stats!', title_x=0.5, autosize=False,
                                     width=1080, height=900,
+                                    zaxis_title='Tag Total',
                                     margin=dict(l=65, r=50, b=65, t=90,))
                             i.plotly_chart(fig00)
                 except:
