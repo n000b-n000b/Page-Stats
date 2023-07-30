@@ -116,7 +116,7 @@ def main(a000,a001,a002):
                 frame00.index=[templ[0][8:],templ[1][8:],templ[2][8:]]
                 with i.container():
                     i.data_editor(frame00, width=9000, height=175)
-                    col002, col003 = i.columns([3,7])
+                    col002, col003 = i.columns([7,2])
                     with col002:
                         z=frame00
                         x,y= frame00.columns, frame00.index
@@ -130,7 +130,7 @@ def main(a000,a001,a002):
                     frame00.index=[templ[0][8:],templ[1][8:]]
                     with i.container():
                         i.data_editor(frame00, width=9000, height=175)
-                        col002, col003 = i.columns([3,7])
+                        col002, col003 = i.columns([7,2])
                         with col002:
                             z=frame00
                             x,y= frame00.columns, frame00.index
