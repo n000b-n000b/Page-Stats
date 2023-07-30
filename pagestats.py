@@ -28,9 +28,9 @@ def main(a000,a001,a002):
         i.caption("<h1 style='text-align: center'>Overview</h1><p style='font-size: 26px; text-align: center'>Page-Statz is a simple and user friendly educational webpage analysis &amp; visualization project. Summarizing the markup language of the sources provided in a 3D surface graph. Updates and features are in development. In the mean time enter three URLs and have a look at the data!</p>",unsafe_allow_html=True)
     with col001:
         form=i.form("Main", clear_on_submit=True)
-        a000=form.text_input("Enter URL 1: ")
-        a001=form.text_input("Enter URL 2: ")
-        a002=form.text_input("Enter URL 3: ")
+        a000=form.text_input("Enter URL 1 (example.com): ")
+        a001=form.text_input("Enter URL 2 (example.com): ")
+        a002=form.text_input("Enter URL 3 (example.com): ")
         b000=form.form_submit_button("Analyze")
     if b000:
         progress_text = "Analyzing . . ."
