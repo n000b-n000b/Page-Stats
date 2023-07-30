@@ -141,8 +141,8 @@ def main(a000,a001,a002):
                             i.plotly_chart(fig00)
                 except:
                     pass
-            # with col003:
-            i.markdown("<div style='border-style: dashed; text-align: center; margin-top: 50px; width: 30%;'><h2>Developers</h2><br><a href='https://www.linkedin.com/in/alayah-howard/'><h3>Front-End</h3><h5>Alayah H.</h5></a><br><a href='https://www.linkedin.com/in/jay-williams-c137/'><h3>Back-End &amp; Visualizations</h3><h5>Jay&#45;C137</h5></a><div>", unsafe_allow_html=True)
+            with i.container():
+                i.markdown("<div style='border-style: dashed; text-align: center; margin-top: 50px; width: 30%;'><h2>Developers</h2><br><a href='https://www.linkedin.com/in/alayah-howard/'><h3>Front-End</h3><h5>Alayah H.</h5></a><br><a href='https://www.linkedin.com/in/jay-williams-c137/'><h3>Back-End &amp; Visualizations</h3><h5>Jay&#45;C137</h5></a><div>", unsafe_allow_html=True)
     try:
         for page0 in templ:
             temp2.append(page0)
