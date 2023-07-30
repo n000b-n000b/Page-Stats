@@ -148,12 +148,15 @@ def main(a000,a001,a002):
                 i.caption("Jay-C137 - "+'\nhttps://www.linkedin.com/in/jay-williams-c137/')
     try:
         if len(templ)==2 or len(templ)==3:
-            for page0 in templ:
-                temp2.append(page0)
-                b00(page0)
-                set_max=c00()
-            #d00()
-            d01()
+            if templ.count(templ[0])>1 or templ.count(templ[1])>1 or templ.count(templ[2])>1:
+                for page0 in templ:
+                    temp2.append(page0)
+                    b00(page0)
+                    set_max=c00()
+                #d00()
+                d01()
+            else:
+                pass
         else:
             pass
     except:
