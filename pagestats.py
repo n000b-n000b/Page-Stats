@@ -8,7 +8,6 @@ import matplotlib.pyplot as e
 from mpl_toolkits.mplot3d import Axes3D
 import re as f
 import numpy as g
-import subprocess as h
 import streamlit as i
 import plotly.express as j
 import plotly.graph_objects as k
