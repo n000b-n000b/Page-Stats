@@ -3,5 +3,3 @@ Page-Statz is a simple and user friendly educational webpage analysis visualizat
 
 # Demo
 
-https://github.com/n000b-n000b/Page-Stats/assets/72074802/09d833bf-aae8-4ecd-ac2e-055e105fcd21
-
